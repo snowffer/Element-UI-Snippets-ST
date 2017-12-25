@@ -18,28 +18,28 @@
 #### Basic Part
 No. |  Trigger Key | Element Tag
 |:-----------|------------:|:------------:|
-1. | `elrow` | `<el-row>` |
-2. | `elcol` | `<el-col>` |
-3. | `elcon` | `<el-container>` |
-4. | `elas` | `<el-aside>` |
-5. | `elhe` | `<el-header>` |
-6. | `elma` | `<el-main>` |
-7. | `elfo` | `<el-footer>` |
-8. | `elcb` | `#409EFF` |
-9. | `elcs` | `#67C23A` |
-10. | `elcw` | `#E6A23C` |
-11. | `elcd` | `#F56C6C` |
-12. | `elci` | `#909399` |
-13. | TBD | `#303133` |
-14. | TBD | `#606266` |
-15. | TBD | `#909399` |
-16. | TBD | `#C0C4CC` |
-17. | TBD | `#DCDFE6` |
-18. | TBD | `#E4E7ED` |
-19. | TBD | `#EBEEF5` |
-20. | TBD | `#F2F6FC` |
-21. | `eltypo` | `font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;` |
-22. | `elb` | `el-button` |
+|1. | `elrow` | `<el-row>` |
+|2. | `elcol` | `<el-col>` |
+|3. | `elcon` | `<el-container>` |
+|4. | `elas` | `<el-aside>` |
+|5. | `elhe` | `<el-header>` |
+|6. | `elma` | `<el-main>` |
+|7. | `elfo` | `<el-footer>` |
+|8. | `elcb` | `#409EFF` |
+|9. | `elcs` | `#67C23A` |
+|10. | `elcw` | `#E6A23C` |
+|11. | `elcd` | `#F56C6C` |
+|12. | `elci` | `#909399` |
+|13. | TBD | `#303133` |
+|14. | TBD | `#606266` |
+|15. | TBD | `#909399` |
+|16. | TBD | `#C0C4CC` |
+|17. | TBD | `#DCDFE6` |
+|18. | TBD | `#E4E7ED` |
+|19. | TBD | `#EBEEF5` |
+|20. | TBD | `#F2F6FC` |
+|21. | `eltypo` | `font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;` |
+|22. | `elb` | `el-button` |
 
 #### Form Part
 
