@@ -16,8 +16,8 @@
 
 
 #### Basic Part
-No. |  Trigger Key | Element Tag
-|-----------|------------|------------|
+|No.|Trigger&nbsp;Key|Element Tag|
+|:------:|:--------------:|:--------|
 |1. | `elrow` | `<el-row>` |
 |2. | `elcol` | `<el-col>` |
 |3. | `elcon` | `<el-container>` |
@@ -44,7 +44,7 @@ No. |  Trigger Key | Element Tag
 #### Form Part
 
 No. |  Trigger Key | Element Tag
-|---|--------|--------|
+|:------:|:--------------:|:--------|
 |1. | `elr` | `<el-radio>` |
 |2. | `elrg` | `<el-radio-group>` |
 |3. | `elc` | `<el-checkbox>` |
@@ -70,7 +70,7 @@ No. |  Trigger Key | Element Tag
 #### Data Part
 
 No. |  Trigger Key | Element Tag
-|---|--------|--------|
+|:------:|:--------------:|:--------|
 |1. | `elta` | `<el-table>` |
 |2. | `eltac` | `<el-table-column>` |
 |3. | `eltag` | `<el-tag>` |
@@ -88,7 +88,7 @@ No. |  Trigger Key | Element Tag
 #### Notice Part
 
 No. |  Trigger Key | Element Tag
-|---|--------|--------|
+|:------:|:--------------:|:--------|
 |1. | `elal` | `<el-alert>` |
 |2. | `elals` | `<el-alert type="success">` |
 |3. | `elali` | `<el-alert type="info">` |
@@ -105,7 +105,7 @@ No. |  Trigger Key | Element Tag
 
 #### Navigation Part
 No. |  Trigger Key | Element Tag
-|---|--------|--------|
+|:------:|:--------------:|:--------|
 |1. | `elmen` | `<el-menu>` |
 |2. | `elsubmen` | `<el-submenu>` |
 |3. | `elmeni` | `<el-menu-item>` |
@@ -120,7 +120,7 @@ No. |  Trigger Key | Element Tag
 
 #### Others Part
 No. |  Trigger Key | Element Tag
-|---|--------|--------|
+|:------:|:--------------:|:--------|
 |1. | `eldi` | `<el-dialog>` |
 |2. | `elto` | `<el-tooltip>` |
 |3. | `elpop` | `<el-popover>` |
@@ -132,13 +132,13 @@ No. |  Trigger Key | Element Tag
 
 #### General Part
 No. |  Trigger Key | Element Tag
-|---|--------|--------|
+|:------:|:--------------:|:--------|
 |1. | `el` | `<el-*>` |
 |2. | `elic` | `<el-icon-*>` |
 
 #### Options Part
 No. |  Trigger Key | Element Tag
-|---|--------|--------|
+|:------:|:--------------:|:--------|
 |1. | `elpos` | positions |
 |2. | `elanims` | animation types |
 
