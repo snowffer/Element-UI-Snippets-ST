@@ -1,6 +1,7 @@
 ### 安装
 将整个文件夹拷贝到如下路径：
 
+#### Mac
 /Users/*< your-user-name >*/Library/Application Support/Sublime Text 3/Packages/User/
 
 ### 特殊说明：
@@ -16,7 +17,7 @@
 
 #### Basic Part
 No. |  Trigger Key | Element Tag
-|---|--------|--------|
+|:-----------|------------:|:------------:|
 1. | `elrow` | `<el-row>` |
 2. | `elcol` | `<el-col>` |
 3. | `elcon` | `<el-container>` |
