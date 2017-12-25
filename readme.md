@@ -1,20 +1,20 @@
-###安装
+### 安装
 将整个文件夹拷贝到如下路径：
 
 /Users/*< your-user-name >*/Library/Application Support/Sublime Text 3/Packages/User/
 
-###特殊说明：
+### 特殊说明：
 
 1. 对于类似于`el-table`这样的组件，内部的`el-table-column`采用`v-for`循环渲染的方式
 
-###对应一览表
+### 对应一览表
 1. 以下忽略了结束符，以及更详细的信息，比如：`elr`对应着`<el-radio>`，其实代表着`<el-radio v-model="${1}" label="${2}">$3</el-radio>`
 2. 结构基本按照官方文档对组件的介绍顺序进行排列，额外提供了General和Options部分
 3. 一共89个，其中有8个尚未实现
 
- 	
 
-####Basic Part
+
+#### Basic Part
 No. |  Trigger Key | Element Tag
 |---|--------|--------|
 1. | `elrow` | `<el-row>` |
@@ -40,7 +40,7 @@ No. |  Trigger Key | Element Tag
 21. | `eltypo` | `font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;` |
 22. | `elb` | `el-button` |
 
-####Form Part
+#### Form Part
 
 No. |  Trigger Key | Element Tag
 |---|--------|--------|
@@ -66,7 +66,7 @@ No. |  Trigger Key | Element Tag
 20. | `elf` | `<el-form>` |
 21. | `elfi` | `<el-form-item>` |
 
-####Data Part
+#### Data Part
 
 No. |  Trigger Key | Element Tag
 |---|--------|--------|
@@ -84,7 +84,7 @@ No. |  Trigger Key | Element Tag
 12. | `elba` | `<el-badge>` |
 
 
-####Notice Part
+#### Notice Part
 
 No. |  Trigger Key | Element Tag
 |---|--------|--------|
@@ -102,7 +102,7 @@ No. |  Trigger Key | Element Tag
 12. TODO: VNode for Message
 
 
-####Navigation Part
+#### Navigation Part
 No. |  Trigger Key | Element Tag
 |---|--------|--------|
 1. | `elmen` | `<el-menu>` |
@@ -117,7 +117,7 @@ No. |  Trigger Key | Element Tag
 10. | `elsts` | `<el-steps>` |
 11. | `elst` | `<el-step>` |
 
-####Others Part
+#### Others Part
 No. |  Trigger Key | Element Tag
 |---|--------|--------|
 1. | `eldi` | `<el-dialog>` |
@@ -129,19 +129,19 @@ No. |  Trigger Key | Element Tag
 7. | `elcolla` | `<el-collapse>` |
 8. | `elcollai` | `<el-collapse-item>` |
 
-####General Part
+#### General Part
 No. |  Trigger Key | Element Tag
 |---|--------|--------|
 1. | `el` | `<el-*>` |
 2. | `elic` | `<el-icon-*>` |
 
-####Options Part
+#### Options Part
 No. |  Trigger Key | Element Tag
 |---|--------|--------|
 1. | `elpos` | positions |
 2. | `elanims` | animation types |
 
-#####TODO
+#### #TODO
 1. `tree`的data值
 2. `import`样式的快捷方式
 3. 不同类型的`button`
