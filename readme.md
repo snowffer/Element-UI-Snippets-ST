@@ -1,17 +1,29 @@
-### 安装
-将整个文件夹拷贝到如下路径：
+### Install
 
-#### Mac
-/Users/*< your-user-name >*/Library/Application Support/Sublime Text 3/Packages/User/
+#### Manual Install
+Copy the folder element-ui-snippets to the path directly:
 
-### 特殊说明：
++ **Mac**: /Users/*< your-user-name >*/Library/Application Support/Sublime Text 3/Packages/User/
++ **Windows**: *< your-installed-driver >* :\Users\ *< your-user-name >* \AppData\Roaming\Sublime Text 3\Packages\User\
 
-1. 对于类似于`el-table`这样的组件，内部的`el-table-column`采用`v-for`循环渲染的方式
+#### Through Package Control
+*TBD*
 
-### 对应一览表
-1. 以下忽略了结束符，以及更详细的信息，比如：`elr`对应着`<el-radio>`，其实代表着`<el-radio v-model="${1}" label="${2}">$3</el-radio>`
-2. 结构基本按照官方文档对组件的介绍顺序进行排列，额外提供了General和Options部分
-3. 一共90个，其中有9个尚未实现
+<!--
+1. Install Package Control
+2. Open Command Palette
+3. Type: Package Control: Install Package, and hit Enter
+4. Type: Element UI Snippets, and hit Enter
+-->
+### Special Instruction：
+
+1. For the components like `el-table` which need children components to be content, use `v-for` to loop to generate the children components.
+
+### Snippets List
+
+1. All the Element UI tags below, ignore the closure and more detailed information. Such as `elr` to `<el-radio>`, actually that represents `<el-radio v-model="${1}" label="${2}">$3</el-radio>`
+2. The sinppets' order follows the order of the components of Guide on Element UI official website basically. Supply extra General and Options parts.
+3. Totally 90 snippets. 9 of them are not implemented yet.
 
 
 
@@ -142,10 +154,12 @@ No. |  Trigger Key | Element Tag
 |1. | `elpos` | positions |
 |2. | `elanims` | animation types |
 
+<!--
 #### #TODO
 1. `tree`的data值
 2. `import`样式的快捷方式
 3. 不同类型的`button`
 4. 各种引用路径：内置动画，样式
+-->
 
 
