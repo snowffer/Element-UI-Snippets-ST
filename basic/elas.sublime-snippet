@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<el-aside width="${1:200px}">
+    ${2:<!-- Aside content -->}
+</el-aside>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elas</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

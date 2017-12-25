@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+<el-container>
+    <el-aside width="${1:200px}">
+        ${2:<!-- Aside content -->}
+    </el-aside>
+    <el-container>
+        <el-header height="$3">
+            ${4:<!-- Header content -->}
+        </el-header>
+        <el-main height="$5">
+            ${6:<!-- Main content -->}
+        </el-main>
+    </el-container>
+</el-container>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elcon</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

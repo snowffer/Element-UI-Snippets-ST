@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<el-input v-model="$1" placeholder="$2"></el-input>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>eli</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

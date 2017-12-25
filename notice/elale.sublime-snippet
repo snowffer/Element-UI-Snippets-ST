@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<el-alert :title="$1" type="error" show-icon></el-alert>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elale</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

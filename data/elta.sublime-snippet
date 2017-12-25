@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<el-table :data="$1">
+    <el-table-column v-for="${2:col} in ${2:columns}"
+        :prop="${2:col}.${3:id}"
+        :key="${2:col}.${3:id}"
+        :label="${2:col}.${4:label}"
+        :width="${2:col}.${5:width}">
+    </el-table-column>
+</el-table>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elta</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

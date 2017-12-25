@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<el-tab-pane :label="$1" :name="$2">
+    $3
+</el-tab-pane>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>eltabp</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

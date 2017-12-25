@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+<el-dialog
+    title="$1"
+    :visible.sync="$2"
+    width="${3:30%}"
+    :before-close="$2 = false">
+    $4
+    <span slot="footer">
+        <el-button @click="$2 = false">取 消</el-button>
+        <el-button type="primary" @click="$5">确 定</el-button>
+    </span>
+</el-dialog>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>eldi</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

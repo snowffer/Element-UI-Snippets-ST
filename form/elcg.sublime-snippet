@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<el-checkbox-group v-model="$1">
+    <el-checkbox v-for="${2:item} in ${3:items}" :key="${2:item}.${4:key}" :label="${2:item}.${5:label}"></el-checkbox>
+</el-checkbox-group>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elcg</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

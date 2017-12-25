@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<el-form :model="${1:form}" ref="${1:form}" label-width="80px">
+    <el-form-item label="$2">
+        <el-input v-model="${1:form}.${3}"></el-input>
+    </el-form-item>
+    <el-form-item>
+        <el-button type="primary" @click="onSubmit">${4:立即创建}</el-button>
+        <el-button>${5:取消}</el-button>
+    </el-form-item>
+</el-form>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elf</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

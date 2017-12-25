@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<el-card :body-style="${1:{ padding: '0px' \}}">
+    <div slot="header">
+        <span>${2:<!-- card title -->}</span>
+    </div>
+    ${3:<!-- card body -->}
+</el-card>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elcard</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

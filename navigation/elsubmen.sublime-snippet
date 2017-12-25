@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<el-submenu :index="$1">
+    <template slot="title">$2</template>
+    <el-menu-item v-for="(${3:item}, ${4:subIndex}) in $5"
+        :index="${4:subIndex} + 1">
+            ${3:item}.$6
+    </el-menu-item>
+</el-submenu>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elsubmen</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

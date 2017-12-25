@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<el-tabs v-for="${1:item} in items"
+    :key="${1:item}.${2:key}"
+    v-model="$3"
+    type="${4:card}">
+    <el-tab-pane :label="${1:item}.${5:label}" :name="${1:item}.${6:id}">
+        $7
+    </el-tab-pane>
+</el-tabs>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>eltabs</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

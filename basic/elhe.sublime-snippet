@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<el-header height="$1">
+    ${2:<!-- Header content -->}
+</el-header>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elhe</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

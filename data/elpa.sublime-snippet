@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<el-pagination
+    @size-change="$1"
+    @current-change="$2"
+    :current-page="$3"
+    :page-sizes="${4:[20, 40, 80, 100]}"
+    :page-size="${5:20}"
+    layout="total, sizes, prev, pager, next, jumper"
+    :total="$6" background>
+</el-pagination>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elpa</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

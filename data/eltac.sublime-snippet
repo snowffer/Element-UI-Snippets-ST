@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<el-table-column
+    :prop="${1:col}.${2:id}"
+    :label="${1:col}.${3:label}"
+    :width="${1:col}.${4:width}">
+</el-table-column>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>eltac</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

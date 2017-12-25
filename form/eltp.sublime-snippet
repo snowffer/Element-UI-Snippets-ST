@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<el-time-picker v-model="$1"
+    :picker-options="{
+        selectableRange: '${2:18:30:00} - ${3:20:30:00}'
+    }"
+    placeholder="${4:任意时间点}">
+</el-time-picker>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>eltp</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

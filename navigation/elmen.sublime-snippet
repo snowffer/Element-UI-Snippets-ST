@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+<el-menu mode="${1:horizontal}" :default-active="$2" @select="$3">
+    <el-submenu v-for="(${4:submenus}, ${5:index}) in ${6:menus}" 
+        :index="${5:index} + 1" 
+        :key="${4:submenus}.${5:key}">
+        <template slot="title">${4:submenus}.${6:title}</template>
+        <el-menu-item v-for="(${7:item}, ${8:subIndex}) in ${4:submenus}"
+            :index="(${5:index} + 1) + '-' + (${8:subIndex} + 1)">
+                ${7:item}.${9:title}
+        </el-menu-item>
+    </el-submenu>
+</el-menu>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elmen</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+<el-upload
+    action="$1"
+    :on-remove="$2"
+    multiple
+    :limit="${3:5}"
+    :on-exceed="$4"
+    :file-list="$5">
+    <el-button size="small" type="primary">${6:点击上传}</el-button>
+    <div slot="tip" class="el-upload__tip">${7:只能上传jpg/png文件，且不超过500kb}</div>
+</el-upload>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elu</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

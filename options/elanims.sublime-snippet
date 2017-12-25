@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<!-- 
+    Fade: ${1:.el-fade-in-linear}/${2:.el-fade-in}
+    Zoom: ${3:.el-zoom-in-center}/${4:.el-zoom-in-top}/${5:.el-zoom-in-bottom}
+    Collapse: ${6:el-collapse-transition}
+-->
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elanims</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+    <description>elanims: element-ui animation types</description>
+</snippet>

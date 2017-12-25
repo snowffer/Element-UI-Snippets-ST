@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<el-steps :active="$1">
+    <el-step v-for="${2:item} in ${3:items}" 
+        :key="${2:item}.${4:key}" 
+        :title="${2:item}.${5:title}"
+        :description="${2:item}.${6:description}"
+        :icon="${2:item}.${7:icon}">
+    </el-step>
+</el-steps>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elsts</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

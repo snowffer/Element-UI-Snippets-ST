@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<el-breadcrumb separator-class="${1:el-icon-arrow-right}">
+    <el-breadcrumb-item :to="{ path: '$2', name: '$3' }">$4</el-breadcrumb-item>
+    <el-breadcrumb-item :to="{ path: '$5', name: '$6' }">$7</el-breadcrumb-item>
+</el-breadcrumb>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elbr</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<el-main height="$1">
+    ${2:<!-- Main content -->}
+</el-main>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elma</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

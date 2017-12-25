@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+this.$message({
+    message: '$1',
+    type: '$2',
+    showClose: ${3:true},
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elme</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

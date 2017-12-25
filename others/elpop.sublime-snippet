@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<el-popover
+    :ref="$1"
+    placement="$2"
+    :title="$3"
+    width="$4"
+    trigger="${5:click}"
+    content="$6">
+    ${7: <!-- <el-button slot="reference">content</el-button> -->}
+</el-popover>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>elpop</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
