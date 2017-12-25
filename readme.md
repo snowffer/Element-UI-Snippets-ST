@@ -17,7 +17,7 @@
 
 #### Basic Part
 No. |  Trigger Key | Element Tag
-|:-----------|------------:|:------------:|
+|-----------|------------|------------|
 |1. | `elrow` | `<el-row>` |
 |2. | `elcol` | `<el-col>` |
 |3. | `elcon` | `<el-container>` |
