@@ -23,7 +23,7 @@ Copy the folder element-ui-snippets to the path directly:
 
 1. All the Element UI tags below, ignore the closure and more detailed information. Such as `elr` to `<el-radio>`, actually that represents `<el-radio v-model="${1}" label="${2}">$3</el-radio>`
 2. The sinppets' order follows the order of the components of Guide on Element UI official website basically. Supply extra General and Options parts.
-3. Totally 90 snippets. 9 of them are not implemented yet.
+3. Totally 91 snippets. 9 of them are not implemented yet.
 
 
 
@@ -64,20 +64,21 @@ No. |  Trigger Key | Element Tag
 |5. | `eli` | `<el-input>` |
 |6. | `elit` | `<el-input type="textarea">` |
 |7. | `elin` | `<el-input-number>` |
-|8. | `else` | `<el-select>` |
-|9. | `elca` | `<el-cascader>` |
-|10. | `elsw` | `<el-swtich>` |
-|11. | `elsl` | `<el-slider>` |
-|12. | `eltp` | `<el-time-picker>` |
-|13. | `elts` | `<el-time-select>` |
-|14. | `eldp` | `<el-date-picker>` |
-|15. | `eldtp` | `<el-date-picker type="datetime">` |
-|16. | `elu` | `<el-upload>` |
-|17. | `elra` | `<el-rate>` |
-|18. | `elcp` | `<el-color-picker>` |
-|19. | `eltr` | `<el-transfer>` |
-|20. | `elf` | `<el-form>` |
-|21. | `elfi` | `<el-form-item>` |
+|8. | `elsel` | `<el-select>` |
+|9. | `elop` | `<el-option>` |
+|10. | `elca` | `<el-cascader>` |
+|11. | `elsw` | `<el-swtich>` |
+|12. | `elsl` | `<el-slider>` |
+|13. | `eltp` | `<el-time-picker>` |
+|14. | `elts` | `<el-time-select>` |
+|15. | `eldp` | `<el-date-picker>` |
+|16. | `eldtp` | `<el-date-picker type="datetime">` |
+|17. | `elu` | `<el-upload>` |
+|18. | `elra` | `<el-rate>` |
+|19. | `elcp` | `<el-color-picker>` |
+|20. | `eltr` | `<el-transfer>` |
+|21. | `elf` | `<el-form>` |
+|22. | `elfi` | `<el-form-item>` |
 
 #### Data Part
 
