@@ -7,7 +7,7 @@
         <template slot="title">${4:submenus}.${6:title}</template>
         <el-menu-item v-for="(${7:item}, ${8:subIndex}) in ${4:submenus}"
             :index="(${5:index} + 1) + '-' + (${8:subIndex} + 1)">
-                ${7:item}.${9:title}
+                {{${7:item}.${9:title}}}
         </el-menu-item>
     </el-submenu>
 </el-menu>
