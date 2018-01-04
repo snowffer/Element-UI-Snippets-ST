@@ -4,8 +4,7 @@
     ${4:<!-- content to trigger tooltip here -->}
 </el-tooltip>
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>elto</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html, text.vue</scope>
+    <description>elto: element-ui el-tooltip</description>
 </snippet>

@@ -2,8 +2,7 @@
     <content><![CDATA[
 el-icon-${1}
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>elic</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html, text.vue</scope>
+    <description>elic: element-ui el-icon-*</description>
 </snippet>

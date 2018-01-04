@@ -4,8 +4,7 @@
     ${3:<!-- content -->}
 </el-collapse-item>
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>elcollai</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html, text.vue</scope>
+    <description>elcollai: element-ui el-collapse-item</description>
 </snippet>

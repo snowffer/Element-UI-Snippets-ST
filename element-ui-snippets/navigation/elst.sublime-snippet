@@ -2,8 +2,7 @@
     <content><![CDATA[
 <el-step :title="$1" :description="$2" :icon="$3"></el-step>
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>elst</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html, text.vue</scope>
+    <description>elst: element-ui el-step</description>
 </snippet>

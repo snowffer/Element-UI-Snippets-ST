@@ -2,9 +2,7 @@
     <content><![CDATA[
 #67C23A
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>elcs</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html, text.vue</scope>
     <description>elcs: element-ui success color</description>
 </snippet>

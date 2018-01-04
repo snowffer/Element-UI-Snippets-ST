@@ -10,8 +10,7 @@
     ${7: <!-- <el-button slot="reference">content</el-button> -->}
 </el-popover>
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>elpop</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html, text.vue</scope>
+    <description>elpop: element-ui el-popover</description>
 </snippet>

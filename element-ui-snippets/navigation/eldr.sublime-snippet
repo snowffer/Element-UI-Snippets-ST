@@ -7,13 +7,12 @@
     <el-dropdown-menu slot="dropdown">
         <el-dropdown-item v-for="${4:item} in ${5:items}"
             :key="${4:item}.${6:key}" :command="${4:item}.${7:command}">
-            ${4:item}.${8:title}
+            {{${4:item}.${8:title}}}
         </el-dropdown-item>
     </el-dropdown-menu>
 </el-dropdown>
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>eldr</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html, text.vue</scope>
+    <description>eldr: element-ui el-dropdown</description>
 </snippet>

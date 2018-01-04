@@ -2,8 +2,7 @@
     <content><![CDATA[
 <el-input type="textarea" :row="${1:2}" v-model="$2" placeholder="$3"></el-input>
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>elit</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html, text.vue</scope>
+    <description>elit: element-ui el-input type="textarea"</description>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<!-- ${1:top}/${2:top-start}/${3:top-end}/${4:bottom}/${5:bottom-start}/${6:bottom-end}/${7:left}/${8:left-start}/${9:left-end}/${10:right}/${11:right-start}/${12:right-end} -->
+]]></content>
+    <tabTrigger>elpos</tabTrigger>
+    <scope>text.html, text.vue</scope>
+    <description>elpos: element-ui position types</description>
+</snippet>

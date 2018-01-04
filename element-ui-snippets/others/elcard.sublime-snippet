@@ -7,8 +7,7 @@
     ${3:<!-- card body -->}
 </el-card>
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>elcard</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html, text.vue</scope>
+    <description>elcard: element-ui el-card</description>
 </snippet>
