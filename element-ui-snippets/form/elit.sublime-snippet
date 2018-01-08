@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<el-input type="textarea" :row="${1:2}" v-model="$2" placeholder="$3"></el-input>
+<el-input type="textarea" :rows="${1:2}" v-model="$2" placeholder="$3"></el-input>
 ]]></content>
     <tabTrigger>elit</tabTrigger>
     <scope>text.html, text.vue</scope>
