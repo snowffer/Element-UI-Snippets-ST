@@ -24,6 +24,7 @@ Copy the folder element-ui-snippets to the path directly:
 1. All the Element UI tags below, ignore the closure and more detailed information. Such as `elr` to `<el-radio>`, actually that represents `<el-radio v-model="${1}" label="${2}">$3</el-radio>`
 2. The sinppets' order follows the order of the components of Guide on Element UI official website basically. Supply extra General and Options parts.
 3. Totally 91 snippets. 9 of them are not implemented yet.
+4. **Only work in .html or .vue file.**
 
 
 
