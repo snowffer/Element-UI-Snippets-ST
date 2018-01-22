@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-this.$message({
+this.\$message({
     message: '$1',
     type: 'error',
     showClose: ${3:true},
