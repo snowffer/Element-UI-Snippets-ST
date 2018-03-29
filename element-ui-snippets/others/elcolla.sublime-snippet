@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<el-collapse v-model="$1" accordion="${2:false}" @change="$3">
+<el-collapse v-model="${1:activeNames}" :accordion="${2:false}" @change="$3">
     <el-collapse-item v-for="${4:item} in ${5:items}"
         :key="${4:item}.${6:id}"
         :title="${4:item}.${7:title}"

@@ -7,6 +7,6 @@ this.\$message({
 });
 ]]></content>
     <tabTrigger>elme</tabTrigger>
-    <scope>text.html, text.vue</scope>
+    <scope>text.html, text.vue, source.js</scope>
     <description>elme: element-ui $message</description>
 </snippet>
