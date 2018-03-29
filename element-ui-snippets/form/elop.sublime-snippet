@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<el-option :label="$1" :value="$2"></el-option>
+]]></content>
+    <tabTrigger>elop</tabTrigger>
+    <scope>text.html, text.vue</scope>
+    <description>elop: element-ui el-option</description>
+</snippet>
