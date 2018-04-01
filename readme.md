@@ -7,14 +7,12 @@ Copy the folder element-ui-snippets to the path directly:
 + **Windows**: *< your-installed-driver >* :\Users\ *< your-user-name >* \AppData\Roaming\Sublime Text 3\Packages\User\
 
 #### Through Package Control
-*TBD*
 
-<!--
 1. Install Package Control
 2. Open Command Palette
 3. Type: Package Control: Install Package, and hit Enter
 4. Type: Element UI Snippets, and hit Enter
--->
+
 ### Special Instruction：
 
 1. For the components like `el-table` which need children components to be content, use `v-for` to loop to generate the children components.
