@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+this.$confirm('${1:内容}', '${2:标题}', {
+    confirmButtonText: '${3:确定}',
+    cancelButtonText: '${4:取消}',
+    type: 'warning',
+    callback: action => {
+        ${5}
+    }
+});
+]]></content>
+    <tabTrigger>elmeconw</tabTrigger>
+    <scope>text.html, text.vue, source.js</scope>
+    <description>elmeconw: element-ui $confirm type="warning"</description>
+</snippet>

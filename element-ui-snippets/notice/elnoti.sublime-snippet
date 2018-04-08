@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+this.$notify({
+    title: '${1}',
+    message: '${2}',
+    type: '${3:|info,success,warning,error|}',
+    duration: '${4:4500}',
+    position: '${5:top-right}'
+});
+]]></content>
+    <tabTrigger>elnoti</tabTrigger>
+    <scope>text.html, text.vue, source.js</scope>
+    <description>elnoti: element-ui $notify</description>
+</snippet>

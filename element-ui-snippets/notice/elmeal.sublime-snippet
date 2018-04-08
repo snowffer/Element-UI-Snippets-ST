@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+this.$alert('${1:内容}', '${2:标题}', {
+    confirmButtonText: '${3:确定}',
+    callback: action => {
+      ${4}
+    }
+});
+]]></content>
+    <tabTrigger>elmeal</tabTrigger>
+    <scope>text.html, text.vue, source.js</scope>
+    <description>elmeal: element-ui $alert</description>
+</snippet>
