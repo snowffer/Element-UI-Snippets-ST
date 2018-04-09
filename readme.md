@@ -16,6 +16,19 @@ Copy the folder element-ui-snippets to the path directly:
 ### Special Instruction：
 
 1. For the components like `el-table` which need children components to be content, use `v-for` to loop to generate the children components.
+2. By default, there would be no auto-complete hints in .html file or the template part in .vue file. If you want it to be shown, you should change the sublime text settings by yourself. Here are the steps (Mac version for example):
+    1. Select menu: Sublime Text -> Preferences -> Settings
+    2. Make sure the value of the option `auto_complete` is `true`
+    3. In Preferences.sublime-settings--Users file, add this key-value:
+        ````
+        "auto_complete_triggers": [
+            {
+                "selector": "text.html",
+                "characters": "l"
+            }
+        ],
+        ````
+    **Warning: this setting would trigger all sinppets which contain letter 'l' even they are not defined in Element UI Snippets.**
 
 ### Snippets List
 
