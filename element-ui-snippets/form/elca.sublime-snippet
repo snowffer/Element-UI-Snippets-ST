@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<el-cascader :options="${1:options}" v-model="${2:selectedOptions}" @change="${2:handleChange}">
+<el-cascader :options="${1:options}" v-model="${2:selectedOptions}" @change="${3:handleChange}">
 </el-cascader>
 ]]></content>
     <tabTrigger>elca</tabTrigger>
